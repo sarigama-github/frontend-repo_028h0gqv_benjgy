@@ -1,0 +1,57 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 216 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.69.245:3000/
+9:01:41 PM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/PoolModal.jsx:15:25: ERROR: Expected ";" but found "n"
+9:01:42 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/PoolModal.jsx:15:25: ERROR: Expected ";" but found "n"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/PoolModal.jsx:15:25
+  
+  Expected ";" but found "n"
+  13 |    useEffect(() => {
+  14 |      if (!pool || !date) return;
+  15 |      const load = async ()n    {
+     |                           ^
+  16 |        try {
+  17 |          const res = await fetch(`${API}/api/pools/${pool.id}/availability?date=${date}`);
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+9:02:14 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/PoolModal.jsx:15:25: ERROR: Expected ";" but found "n"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/PoolModal.jsx:15:25
+  
+  Expected ";" but found "n"
+  13 |    useEffect(() => {
+  14 |      if (!pool || !date) return;
+  15 |      const load = async ()n    {
+     |                           ^
+  16 |        try {
+  17 |          const res = await fetch(`${API}/api/pools/${pool.id}/availability?date=${date}`);
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
