@@ -12,7 +12,7 @@ export default function PoolModal({ pool, onClose }) {
 
   useEffect(() => {
     if (!pool || !date) return;
-    const load = async ()n    {
+    const load = async () => {
       try {
         const res = await fetch(`${API}/api/pools/${pool.id}/availability?date=${date}`);
         const data = await res.json();
