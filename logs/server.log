@@ -3,13 +3,13 @@
 > vite
 
 
-  VITE v5.4.20  ready in 216 ms
+  VITE v5.4.20  ready in 233 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.69.245:3000/
-9:01:41 PM [vite] Pre-transform error: Transform failed with 1 error:
+9:17:46 PM [vite] Pre-transform error: Transform failed with 1 error:
 /home/workspace/src/components/PoolModal.jsx:15:25: ERROR: Expected ";" but found "n"
-9:01:42 PM [vite] Internal server error: Transform failed with 1 error:
+9:17:47 PM [vite] Internal server error: Transform failed with 1 error:
 /home/workspace/src/components/PoolModal.jsx:15:25: ERROR: Expected ";" but found "n"
   Plugin: vite:esbuild
   File: /home/workspace/src/components/PoolModal.jsx:15:25
@@ -32,7 +32,7 @@
       at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
       at Readable.push (node:internal/streams/readable:390:5)
       at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
-9:02:14 PM [vite] Internal server error: Transform failed with 1 error:
+9:18:05 PM [vite] Internal server error: Transform failed with 1 error:
 /home/workspace/src/components/PoolModal.jsx:15:25: ERROR: Expected ";" but found "n"
   Plugin: vite:esbuild
   File: /home/workspace/src/components/PoolModal.jsx:15:25
